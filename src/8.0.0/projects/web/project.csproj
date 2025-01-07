@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Omnia.Fx.NetCore.WebApp" Version="8.0.188-dev" />
+    <PackageReference Include="Omnia.Fx.NetCore.WebApp" Version="8.0.361-dev" />
   </ItemGroup>
 
   <!--***************************************************************************************-->
@@ -35,7 +35,7 @@
     </Exec>
   </Target>
   <Target Name="OmniaRunAfterBuild" AfterTargets="Build" Condition="'$(Configuration)' != 'Release' And '$(Configuration)' != 'BuildWithoutTsc' ">
-    <Exec Command="npm run build" ContinueOnError="false">
+    <Exec Command="npm run build-dev" ContinueOnError="false">
     </Exec>
   </Target>
   <Target Name="IncludeOmniaOutput" AfterTargets="ComputeFilesToPublish">
