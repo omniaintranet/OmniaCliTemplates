@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     <AssemblyName>$namespace$</AssemblyName>
@@ -31,7 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Omnia.Fx.NetCore.Worker" Version="8.0.361-dev" />
+    <PackageReference Include="Omnia.Fx.NetCore.Worker" Version="8.0.362-dev" />
   </ItemGroup>
 
   <!--***************************************************************************************-->
