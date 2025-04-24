@@ -63,7 +63,6 @@
         "@typescript-eslint/no-array-constructor": "off",
         "@typescript-eslint/no-unsafe-declaration-merging": "off",
         "@typescript-eslint/no-duplicate-enum-values": "off",
-
         "@stylistic/indent": ["error", 4],
         "@stylistic/dot-location": ["error", "property"],
         "@stylistic/jsx-quotes": ["error", "prefer-double"],

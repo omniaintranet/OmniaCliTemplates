@@ -1,9 +1,9 @@
 import { Composer } from "@omnia/tooling/composers";
-import { ClientManifestTargetTypes, Guid } from "@omnia/fx/models";
+import { ClientManifestTargetTypes, guid } from "@omnia/fx/models";
 import { FontAwesomeIcon } from "@omnia/fx-models";
 
 Composer
-    .registerManifest(new Guid("$guid1$"), "$outputname$")
+    .registerManifest(guid("$guid1$"), "$outputname$")
     .registerElement({
         elementName: "$element$",
         entryPoint: "./$outputname$.tsx"
@@ -23,7 +23,7 @@ Composer
     .withTarget(ClientManifestTargetTypes.public);
 
 Composer
-    .registerManifest(new Guid("$guid2$"), "$outputname$.settings")
+    .registerManifest(guid("$guid2$"), "$outputname$.settings")
     .registerElement({
         elementName: "$element$-settings",
         entryPoint: "./$outputname$Settings.tsx"

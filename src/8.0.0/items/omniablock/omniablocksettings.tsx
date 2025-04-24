@@ -13,11 +13,11 @@ export default defineVueComponent({
         const $outputname$Classes = StyleFlow.use($outputname$SettingsStyles);
 
         return () => (
-            <o-panel variant="settings">
-                <o-text-field
+            <o.panel>
+                <o.input.field
                     v-model={settings.title}
                     label="Title">
-                </o-text-field>
+                </o.input.field>
             </o-panel>
         );
     }
