@@ -18,7 +18,7 @@ export default defineVueComponent({
                     v-model={settings.title}
                     label="Title">
                 </o.input.field>
-            </o-panel>
+            </o.panel>
         );
     }
 });
