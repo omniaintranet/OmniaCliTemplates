@@ -722,6 +722,9 @@
           "name": "Omnia.WebContentManagement.Fx"
         },
         {
+          "name": "Omnia.WebContentManagement.Models"
+        },
+        {
           "name": "Omnia.WebContentManagement.Fx.NetCore.WebApp"
         }
       ],
@@ -741,6 +744,9 @@
       "nuget": [
         {
           "name": "Omnia.Workplace.Fx"
+        },
+        {
+          "name": "Omnia.Workplace.Models"
         }
       ],
       "npm": [
